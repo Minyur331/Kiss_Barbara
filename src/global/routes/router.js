@@ -1,10 +1,5 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import DefaultLayout from "../layout/defaultLayout/DefaultLayout";
-import { AppArea } from "../../shared";
-import { Homepage, SpiceSelectionPage } from "../../features/spices/pages";
-import { SpiceArticle, UnderConstruction } from "../../features/spices/components";
-import loadSpiceArticle from "../../features/spices/loader/loadSpiceArticle";
-
 
 
 const router = createBrowserRouter([
@@ -14,28 +9,28 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Homepage />
+                element: <h1>Homepage </h1>
             },
             {
                 path:'spices',
-                element: <AppArea />,
+                element: <h1>Apparea</h1>,
                 children: [
                     {
                         index:true,
-                        element: <SpiceSelectionPage />,
-                        loader: loadSpiceCards,
+                        element: <h1>page1</h1>,
+                        //loader: loader
                     },
                     {
                         path:':spiceSlug',
-                        element: <SpiceArticle />,
-                        loader: loadSpiceArticle,
+                        element: <h1>page1</h1>,
+                        //loader: loader
                         
                     }
                 ]
             },
             {
                 path:'spicology',
-                element: <UnderConstruction />
+                element: <h1>UnderConstruction</h1>,
             },
         ]
     }

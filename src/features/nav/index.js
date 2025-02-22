@@ -6,5 +6,5 @@ import SiteHeader from "./SiteHeader/SiteHeader";
 export {
     SiteFooter,
     SiteHeader,
-    Navbar,
+    Navbar
 }

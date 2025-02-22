@@ -3,7 +3,7 @@ import { SiteFooter, SiteHeader } from "../../../features/nav";
 
 import * as style from './default-layout.module.css'
 
-const DefaultLayout = () => {
+const DefaultLayout= () => {
     return(
         <div className={style['default-layout']}>
             <SiteHeader />

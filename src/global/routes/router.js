@@ -1,12 +1,12 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
-import DefaultLayout from "../layout/defaultLayout/DefaultLayout";
 import AppArea from "../layouts/AppArea/AppArea";
+import DefaultLayout from "../layouts/defaultLayout/DefaultLayout";
 
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: < DefaultLayout />,
+        element: < DefaultLayout/>,
         children: [
             {
                 index: true,

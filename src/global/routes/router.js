@@ -1,5 +1,6 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import DefaultLayout from "../layout/defaultLayout/DefaultLayout";
+import AppArea from "../layouts/AppArea/AppArea";
 
 
 const router = createBrowserRouter([
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
             },
             {
                 path:'spices',
-                element: <h1>Apparea</h1>,
+                element: <AppArea/>,
                 children: [
                     {
                         index:true,
@@ -32,6 +33,17 @@ const router = createBrowserRouter([
                 path:'spicology',
                 element: <h1>UnderConstruction</h1>,
             },
+            {
+                path:'upload',
+                element: <AppArea/>,
+                children: [
+                    {
+                        index:true,
+                        element: <h1>page1</h1>,
+                        //loader: getPlants
+                    },
+                ]
+            }
         ]
     }
 ]);

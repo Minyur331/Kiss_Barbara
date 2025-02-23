@@ -73,7 +73,7 @@ module.exports = {
         new CopyPlugin({
              patterns: [
                  {
-                    from: "./src/features/vizsga/assets",
+                    from: "./src/features/shared/assets",
                     to: "../assets"
                  },
             ],

@@ -1,0 +1,27 @@
+[
+    {
+      "faj": "Nárcisz",
+      "ar": "2500 Ft",
+      "leiras": "A nárcisz (Narcissus) a spárgavirágúak (Asparagales) rendjébe, az amarilliszfélék (Amaryllidaceae) családjába tartozó növénynemzetség. A nárciszok közkedvelt vágott, illetve kerti virágok, a természetben vadon kialakult nárciszfajokból rengeteg hibridet, fajtát nemesítettek ki a kertészetek. A nárciszok többsége tavasszal virágzik, csak néhány faj ősszel. Fontos tudni róluk, hogy mérgező növények. A nemzetség a nevét Narkisszosz mitológiai alakról, esetleg narkotikus (narkoa, görögül bénítani) tulajdonságairól kapta.",
+      "img":"narcisz.jpg"
+    },
+    {
+      "faj": "Rózsa",
+      "ar": "3000 Ft",
+      "leiras": "A rózsa (Rosa) a rózsafélék (Rosaceae) családjába tartozó növénynemzetség. A rózsák széles körben ismertek és termesztettek, különböző színű és formájú virágaik miatt népszerűek. Számos fajtáját nemesítették dísznövényként, és a virágok illóolaját parfümök készítéséhez is használják.",
+        "img":"rozsa.jpg"
+    },
+    {
+      "faj": "Tulipán",
+      "ar": "2200 Ft",
+      "leiras": "A tulipán (Tulipa) a liliomfélék (Liliaceae) családjába tartozó növénynemzetség. A tulipánok jellemzően tavasszal virágzó növények, amelyeket elsősorban dísznövényként termesztenek. A tulipán eredetileg Közép-Ázsiából származik, de a leginkább a hollandiai termesztéséről ismert.",
+      "img":"tulipan.jpg"
+    },
+    {
+      "faj": "Levendula",
+      "ar": "1800 Ft",
+      "leiras": "A levendula (Lavandula) az árvacsalánfélék (Lamiaceae) családjába tartozó növénynemzetség. A levendula illatos virágairól ismert, amelyeket gyógyászati és kozmetikai célokra is használnak. Szárított formában gyakran illatosítóként vagy tea alapanyagként is alkalmazzák.",
+      "img":"levendula.jpg"
+    }
+  ]
+  
